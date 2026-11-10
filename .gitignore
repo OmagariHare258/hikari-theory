@@ -1,0 +1,14 @@
+# 运行时/隐私：不要提交
+state/
+*.log
+*.jsonl
+.env
+node_modules/
+tokens/
+credentials*.json
+*.bak-*
+*.zip
+
+# 系统
+.DS_Store
+Thumbs.db
