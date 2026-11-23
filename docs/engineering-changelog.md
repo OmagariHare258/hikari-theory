@@ -221,3 +221,8 @@
 - 新增 `docs/methodology/METHODOLOGY-custom-character-bagu.md`：把反鱼八股拆成「通用 AI 味（跨角色）」和「角色专属八股（按角色映射）」，附特征维度容忍度矩阵与发前判据。
 - 新增 `docs/guides/PROMPT-FLEXIBILITY.md`：引擎层不变规矩 vs 角色层可变旋钮；给新角色逐项定旋钮，多一点少一点很正常。
 - ANTI-BAGU.md、METHODOLOGY-INDEX.md、README 已交叉链接。
+## 2026-11-23 文稿文风务实化
+
+- README 重写：修掉正文里残留的 `\n` 字面量、把「系统总检」放回正文、句式改短改直，结论先行。
+- METHODOLOGY-INDEX 开头去掉「不只…还…」的绕弯，直接写清人格卡与方法集的分工。
+- 原则：务实、短句、结论先行；不套邓公原话，只取「实事求是」的行文味道。
