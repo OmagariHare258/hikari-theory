@@ -1,0 +1,50 @@
+{
+  "dsh": { "baseUrl": "http://127.0.0.1:<PORT>" },
+  "snowluma": {
+    "httpUrl": "http://127.0.0.1:<PORT>",
+    "wsUrl": "ws://127.0.0.1:<PORT>",
+    "accessToken": "<TOKEN>"
+  },
+  "ownerQQ": 10000001,
+  "admin": { "displayName": "主人" },
+  "workspaceTitle": "QQ 聊天",
+  "expectedUin": 10000000,
+  "allowAllWhenEmpty": true,
+  "allow": { "private": [], "groups": [200000001, 200000002], "friendTargets": false },
+  "deny": { "users": [], "private": [], "groups": [] },
+  "socialV2": {
+    "enabled": true,
+    "tools": { "crossTask": true, "sendImage": true, "sendVoice": true },
+    "crossTask": {
+      "enabled": true,
+      "keepSessionMs": 0,
+      "reportToChat": false,
+      "ttlMs": 600000,
+      "maxReads": 5,
+      "maxSends": 3,
+      "maxSendsPerTask": 10
+    },
+
+    "wake": {
+      "busyWatchdog": true,
+      "busyWatchdogMs": 300000,
+      "pendingWakeLeaseMs": 600000
+    },
+    "send": { "maxMessageChars": 500 }
+  },
+  "biliBridge": {
+    "enabled": true,
+    "dynamics": { "enabled": true, "pollIntervalMs": 600000, "groups": ["200000002"] },
+    "share": {
+      "enabled": true,
+      "times": ["09:30", "12:30", "15:30", "19:30", "22:30"],
+      "groups": ["200000002"],
+      "ownerPrivate": true,
+      "via": "comment"
+    }
+  },
+  "role": { "maxInjectChars": 20000 },
+  "consolePort": 3100
+}
+
+
